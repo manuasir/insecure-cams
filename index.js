@@ -16,8 +16,7 @@
 		
 		let payloads = _.flattenDeep(_.map(wholeTree.children, 'payload'))
 		// Write the JSON to disc
-		console.log(payloads)
-		fs.writeFile('myjsonfile.json', JSON.stringify(payloads,null,4), 'utf8',() => {
+		fs.writeFile('allCameras.json', JSON.stringify(payloads,null,4), 'utf8',() => {
 		  return 0
 		});
 		
