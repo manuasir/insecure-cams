@@ -1,7 +1,7 @@
 
 Scraped +3K cameras using [iceberg](https://github.com/manuasir/iceberg).
 
-## Sample:e=0&amp;COUNTER)]()
+## Sample:
 [![](http://118.140.156.38:5000/cgi-bin/viewer/video.jpg?r=COUNTER)]()
 [![](http://38.101.209.29:8082/mjpg/video.mjpg?COUNTER)]()
 [![](http://14.161.34.8:90/SnapshotJPEG?Resolution=640x480&amp;Quality=Clarity&amp;COUNTER)]()
