@@ -1,5 +1,5 @@
 
-Scraped +3K data using [iceberg](https://github.com/manuasir/iceberg).
+Scraped +3K cameras using [iceberg](https://github.com/manuasir/iceberg).
 
 ## Sample:
 [![](http://1.250.137.153:80/mjpg/video.mjpg?COUNTER)]()
