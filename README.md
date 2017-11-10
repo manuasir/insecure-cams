@@ -1,4 +1,4 @@
-Scraped +1.5K cameras using [iceberg](https://github.com/manuasir/iceberg).
+Scraped +1.5K cameras using [node-iceberg](https://github.com/manuasir/node-iceberg).
 
 ## Sample:
 [![](http://83.235.183.208:8082/cgi-bin/viewer/video.jpg?r=COUNTER)]()
