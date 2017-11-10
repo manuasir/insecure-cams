@@ -1,8 +1,6 @@
-Scraped +3K data using [iceberg](https://github.com/manuasir/iceberg).
+Scraped +1.5K cameras using [iceberg](https://github.com/manuasir/iceberg).
 
 ## Sample:
-[![](http://1.250.137.153:80/mjpg/video.mjpg?COUNTER)]()
-[![](http://189.100.93.156:60001/cgi-bin/snapshot.cgi?chn=0&u=admin&p=&q=0)]()
 [![](http://83.235.183.208:8082/cgi-bin/viewer/video.jpg?r=COUNTER)]()
 [![](http://184.178.237.202:8081/mjpg/video.mjpg?COUNTER)]()
 [![](http://61.221.80.201:80/mjpg/video.mjpg?COUNTER)]()
