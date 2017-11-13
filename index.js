@@ -5,12 +5,11 @@
 	const fs = require('fs')
 	// Root URL
 	 const url = 'http://www.insecam.org/en/byrating/'
-     let conf = { iteratorElement: { url: url, iterator: '?page=', maxPage: 5 }, selector: { element: 'img', attrib: 'src' } }
-
+     let conf = { iteratorElement: { url: url, iterator: '?page=', maxPage: 500 }, selector: { element: 'img', attrib: 'src' } }
       const crawl = new Crawler(url)
         
 	try{
-		await crawl.start(4, conf)
+		await crawl.start(conf)
         const wholeTree = crawl.treeToObject()
 		
 		let payloads = _.flattenDeep(_.map(wholeTree.children, 'selector'))

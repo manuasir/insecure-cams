@@ -18,6 +18,6 @@
   "homepage": "https://github.com/manuasir/insecure-cams#readme",
   "dependencies": {
     "lodash": "^4.17.4",
-    "node-iceberg": "^1.1.0"
+    "node-iceberg": "^1.5.0"
   }
 }
