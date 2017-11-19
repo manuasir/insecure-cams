@@ -10,8 +10,5 @@ const crawl = new Crawler(url)
 crawl.start(conf).then((wholeTree) => {
   let payloads = _.flattenDeep(_.map(wholeTree.children, 'selector'))
 // Write the JSON to disc
-  fs.writeFile('allCameras.json', JSON.stringify(payloads,null,4), 'utf8',() => {  return 0 })
-}).catch((err) => { console.error("un error ",err)})
-
-
-
+  fs.writeFile('allCameras.json', JSON.stringify(payloads, null, 4), 'utf8', () => { return 0 })
+}).catch((err) => { console.error('un error ', err) })
